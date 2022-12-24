@@ -1,3 +1,3 @@
 # Fabric Glider
 
-A Fabric mod that adds simple gliders to modern Minecraft versions
+A Fabric mod that adds simple gliders to modern Minecraft versions.
