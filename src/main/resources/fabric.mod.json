@@ -4,7 +4,7 @@
   "version": "${version}",
 
   "name": "Fabric Glider",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "description": "A Fabric mod that adds simple gliders to modern Minecraft versions.",
   "authors": [
     "Chunky_Monkey54"
   ],
