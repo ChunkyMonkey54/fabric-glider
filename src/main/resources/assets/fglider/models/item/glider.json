@@ -2,5 +2,13 @@
   "parent": "item/generated",
   "textures": {
     "layer0": "fglider:item/glider"
-  }
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "broken": 1
+      },
+      "model": "fglider:item/broken_glider"
+    }
+  ]
 }
