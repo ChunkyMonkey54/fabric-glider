@@ -1,7 +1,7 @@
-package net.chunkymonkey.fglider.renderer;
+package net.chunkymonkey.fglider.client.render;
 
 import net.chunkymonkey.fglider.FabricGlider;
-import net.chunkymonkey.fglider.item.ModItems;
+import net.chunkymonkey.fglider.registry.ModItems;
 import net.minecraft.client.network.AbstractClientPlayerEntity;
 import net.minecraft.client.render.OverlayTexture;
 import net.minecraft.client.render.RenderLayer;

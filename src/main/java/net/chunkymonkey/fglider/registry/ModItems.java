@@ -1,6 +1,7 @@
-package net.chunkymonkey.fglider.item;
+package net.chunkymonkey.fglider.registry;
 
 import net.chunkymonkey.fglider.FabricGlider;
+import net.chunkymonkey.fglider.item.GliderItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.Item;
@@ -14,14 +15,13 @@ public class ModItems {
     public static final Item WING = registerItem("wing",
             new Item(new FabricItemSettings().group(ItemGroup.MATERIALS)));
     public static final Item GLIDER = registerItem("glider",
-            new GliderItem(new FabricItemSettings().maxDamage(Items.ELYTRA.getMaxDamage())
-                    .group(ItemGroup.TRANSPORTATION).equipmentSlot(stack -> EquipmentSlot.CHEST)));
+            new GliderItem(new FabricItemSettings().maxDamage(Items.ELYTRA.getMaxDamage()).group(ItemGroup.TRANSPORTATION).equipmentSlot(stack -> EquipmentSlot.CHEST)));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(FabricGlider.MOD_ID, name), item);
     }
 
-    public static void registerModItems() {
+    public static void register() {
         FabricGlider.LOGGER.debug("Registering Mod Items for " + FabricGlider.MOD_ID);
     }
 }

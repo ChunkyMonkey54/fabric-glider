@@ -1,6 +1,6 @@
 package net.chunkymonkey.fglider;
 
-import net.chunkymonkey.fglider.item.ModItems;
+import net.chunkymonkey.fglider.registry.ModItems;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -12,6 +12,6 @@ public class FabricGlider implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		ModItems.registerModItems();
+		ModItems.register();
 	}
 }

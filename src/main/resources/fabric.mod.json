@@ -22,7 +22,7 @@
       "net.chunkymonkey.fglider.FabricGlider"
     ],
     "client": [
-      "net.chunkymonkey.fglider.FabricGliderClient"
+      "net.chunkymonkey.fglider.client.FabricGlider"
     ]
   },
   "mixins": [
